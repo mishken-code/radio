@@ -1,0 +1,86 @@
+
+/* welcome to the style file of this project! */
+
+* {
+    transition: all ease .2s ;
+    position: absolute;
+}
+.square{
+width:2450px;
+height:1800px;
+background: linear-gradient(180deg, rgb(184, 223, 158), rgb(122, 238, 228));
+top: 0px;
+left: 0px;
+}
+
+.square2 {
+    width: 92px;
+    height: 92px;
+    background: rgb(236, 192, 227);
+    border-radius: 50%;
+    filter: drop-shadow(30%);
+    top: 171px;
+    left: 792px;
+    -webkit-box-shadow: 4px 2px 45px -1px rgba(58,39,79,0.89);
+    -moz-box-shadow: 4px 2px 45px -1px rgba(58,39,79,0.89);
+    box-shadow: 4px 2px 45px -1px rgba(58,39,79,0.89);
+}
+#demoFont {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 25px;
+    letter-spacing: 2.8px;
+    word-spacing: -1.2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: normal;
+    text-transform: uppercase;
+    top: 283px;
+    left: 790px;
+    }
+    .square3 {
+        width: 8px;
+        height: 29px;
+        background: rgb(179, 167, 167);
+        top: 170px;
+        left: 834px;
+        -webkit-box-shadow: inset 0px -1px 12px -1px rgba(58,39,79,0.89);
+        -moz-box-shadow: inset 0px -1px 12px -1px rgba(58,39,79,0.89);
+        box-shadow: inset 0px -1px 12px -1px rgba(58,39,79,0.89);
+        }
+        .rotate-90-top-cw {
+            -webkit-animation: rotate-90-top-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    animation: rotate-90-top-cw 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        }
+@-webkit-keyframes rotate-90-top-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  @keyframes rotate-90-top-cw {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+    100% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+      -webkit-transform-origin: top;
+              transform-origin: top;
+    }
+  }
+  
+        
+    
